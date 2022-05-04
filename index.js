@@ -1,4 +1,6 @@
+// lit-html 模板，提供 html 模板(简单js表达式及事件绑定)、render 渲染能力
 import { render } from 'https://unpkg.com/lit-html?module'
+// reactivity 是vue3.0的核心，shallowReactive 浅响应，effect 可以理解为 watch，提供属性响应及部分生命周期处理
 import {
   shallowReactive,
   effect
